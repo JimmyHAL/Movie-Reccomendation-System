@@ -55,7 +55,7 @@ First I ranked the movies in order of their average ratings. There were a few mo
 ![top30_dataframe](images/Top30.PNG)
 
 
-![top30_chart](images/top30_chart.PNG)
+![top30_chart](images/top30_chart.png)
 
 These are all critically acclaimed and well known movies. A list like this might be helpful for users who want to know the most popular movies but fail to recommend for a more specific taste. For that, a personalized recommender is needed.
 
@@ -67,7 +67,7 @@ After building several memory-based and model-based systems, I ended up with the
 ![model_scores_table](images/metrics.PNG)
 
 
-![model_scores_chart](images/RMSE_scores.PNG)
+![model_scores_chart](images/RMSE_scores.png)
 
 The RMSE for the KNN with Baseline models and matrix factorization models were so close that the ranking changes with the random draw of the cross-validation. In the ended I decided to go with a matrix factroization model because I know that it scales much better with larger dataset. If I wanted to use the recommender on the larger dataset, it could easily be achieved using this model. Between ALS and SVD, I decided to go with ALS despite it being less efficient because I know that it deals with large, sparse matrices better. If we wanted to add new users to the datasets, their information would be very sparse, so ALS is better for this project.
 
