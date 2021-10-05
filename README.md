@@ -1,4 +1,4 @@
-# Project 4 - Movie Recommendation Systems
+# Movie Recommendation Systems
 
 In this project I will be building a movie recommendation system that will return top recommendations for a user.
 
